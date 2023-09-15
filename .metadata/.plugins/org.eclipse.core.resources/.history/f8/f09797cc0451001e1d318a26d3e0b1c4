@@ -1,0 +1,7 @@
+package entities;
+
+//Sistema de bater ponto
+
+public class Usuario {
+
+}

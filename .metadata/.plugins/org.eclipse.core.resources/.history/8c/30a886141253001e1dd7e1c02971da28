@@ -1,0 +1,13 @@
+package util;
+
+import java.util.function.Function;
+
+public class UpperCaseName implements Function<Product, String> {    //Function tem duas saídas, nesse exemplo: Product e String
+
+	@Override
+	public Object apply(Object t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

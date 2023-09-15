@@ -1,0 +1,13 @@
+package application;
+
+public class Program {
+	
+	public static int globalValue = 3;
+	
+	public static void main(String[]args) {
+		
+		int [] vect = new int [] {3,4,5};
+		changeOdddValues(vect);
+	}
+
+}

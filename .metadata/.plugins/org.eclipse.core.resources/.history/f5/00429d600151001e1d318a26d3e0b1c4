@@ -1,0 +1,7 @@
+package application;
+
+public class Program {
+	
+	Set<Product> set = new Hashset<>();
+
+}

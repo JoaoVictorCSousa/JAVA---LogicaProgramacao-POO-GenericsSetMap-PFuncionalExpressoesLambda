@@ -1,0 +1,28 @@
+package application;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Program {
+	
+	public static void main(String []args) {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.print("Enter a full file path: ");
+	String path = sc.nextLine();
+	
+	try (BufferedReader br = new BufferedReader(new FileReader(path)) {
+		
+		List<Product> list = new ArrayList<>();
+		
+		String line = br.readLine();
+	}
+
+	}
+}

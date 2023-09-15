@@ -1,0 +1,10 @@
+package entities;
+
+//Sistema de bater ponto
+
+public class LogEntry {
+	
+	private String username;
+	private Date moment;
+
+}
